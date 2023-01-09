@@ -177,6 +177,11 @@ ul li::before {
     max-width: 100%;
     height: auto;
   }
+  .arrow-left {
+    position: fixed;
+    top: 53%;
+    width: 46%;
+  }
 }
 @media screen and (max-height: 50rem) {
   .canvas {
