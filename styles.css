@@ -167,15 +167,17 @@ ul li::before {
   display: none;
 }
 @media screen and (max-width: 37rem) {
-  body {
-    font-size: 0.9rem;
-  }
   .title {
     margin-top: 1rem;
+    font-size: 0.5em;
+    text-align: center;
   }
   .canvas {
     max-width: 100%;
     height: auto;
+  }
+  h1 p {
+    font-size: 1rem;
   }
   .arrow-left {
     position: fixed;
