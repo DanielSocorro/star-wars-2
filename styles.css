@@ -80,10 +80,9 @@ ul li::before {
   margin-top: 2rem;
   margin-right: auto;
   margin-left: auto;
-  background: #10191e;
+  background: #000005;
   backface-visibility: hidden;
   animation: fade 1s ease-in-out;
-  transform: translate(0, 0, 0);
 }
 @keyframes fade {
   0% {
@@ -209,6 +208,15 @@ ul li::before {
   .only-desktop {
     display: none;
   }
+}
+@media screen and (max-width: 90rem) {
+  .arrow-left {
+    display: flex;
+    position: fixed;
+    top: 70%;
+    left: auto;
+  }
+
 }
 @media (orientation: landscape) {
   .image-container {
